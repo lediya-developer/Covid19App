@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Covid19App</string>
+    <string name="title">Covid19 India Tracker App</string>
+    <string name="description" tools:ignore="TypographyEllipsis">Please wait…  It will load \n current status in India</string>
+    <string name="total_case">Total Case</string>
+    <string name="active_case">Active Case</string>
+    <string name="cured_case">Cured</string>
+    <string name="death">Death</string>
+    <string name="state">Affected States</string>
+    <string name="help_line">HelpLine</string>
+    <string name="about_corona">Corona</string>
+    <string name="india">India Covid19 Summary</string>
+    <string name="prevent">Prevent Ideas</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="try_again">Please try again</string>
+    <string name="internet">Network not available</string>
+    <string name="server_down">Server is down. please try \n again after sometime </string>
+    <string name="total_india">Total Affect Case in India</string>
+    <string name="corona">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.\nMost people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+        \n The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face.\nThe COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).
+        \n At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.
+    \n\n<b>Symptoms</b>\n\n COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.\n\n
+     Most common symptoms:\n1.fever.\n2.dry cough.\n3.tiredness.\n\nLess common symptoms:\n1.aches and pains.\n 2.sore throat.\n 3.diarrhoea. \n 4.conjunctivitis.\n 5.headache.
+ \n 6.loss of taste or smell. \n 7.a rash on skin, or discolouration of fingers or toes.\n\n Serious symptoms: \n 1.difficulty breathing or shortness of breath.
+\n 2.chest pain or pressure.\n 3.loss of speech or movement. \n\n Seek immediate medical attention if you have serious symptoms.  Always call before visiting your doctor or health facility.\n People with mild symptoms who are otherwise healthy should manage their symptoms at home.
+        \n On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.\n\n
+    </string>
+    <string name="prevent_ideas">To prevent infection and to slow transmission of COVID-19, do the following:
+        \n\n 1.Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.\n
+2.Maintain at least 1 metre distance between you and people coughing or sneezing.\n
+3.Avoid touching your face.\n4.Cover your mouth and nose when coughing or sneezing.\n
+5.Stay home if you feel unwell.\n6.Refrain from smoking and other activities that weaken the lungs.\n
+7.Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.</string>
+</resources>

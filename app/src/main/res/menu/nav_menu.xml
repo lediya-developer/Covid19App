@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+                android:id="@+id/nav_prevent"
+                android:title="@string/prevent"/>
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/india"/>
+        <item
+                android:id="@+id/nav_state"
+                android:title="@string/state"/>
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/help_line"/>
+    </group>
+</menu>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="165dp"
+   >
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/stateName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/bold"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dataLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/stateName">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/totalCase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/total_case"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/regular"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/totalCase"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/activeCase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/active_case"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/totalCase" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/regular"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/activeCase"
+            app:layout_constraintTop_toBottomOf="@+id/total" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/curedCase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/cured_case"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activeCase" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cured"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/regular"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/curedCase"
+            app:layout_constraintTop_toBottomOf="@+id/activeCase" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/deathCase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/death"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/curedCase" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/death"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/regular"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/deathCase"
+            app:layout_constraintTop_toBottomOf="@+id/cured" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
